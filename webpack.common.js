@@ -18,5 +18,9 @@ module.exports = {
       },
     ],
   },
-  plugins: [new HtmlWebpackPlugin('New Webpack Project')],
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: 'New Webpack Project',
+    }),
+  ],
 };
